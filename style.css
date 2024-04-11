@@ -1,0 +1,158 @@
+.intro{
+    display: flex;
+}
+.icons{
+    display: flex;
+  
+}
+.advert{
+    font-weight: lighter;
+}
+.photo{
+    width: 550px;
+    height: 700px;
+
+}
+a{
+    text-decoration: none;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: white;
+    word-spacing: 100px;
+    
+    }
+    .topnav.a{
+        float: left;
+        text-align: center;
+        color: #f2f2f2;
+        padding: 16px 18px;
+        text-decoration: none;
+        font-size: 14px;
+        text-decoration: aliceblue;
+        gap: 8px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+        margin-left: 20px;
+
+    }
+    .foot{
+        text-align: center;
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .logos{
+        background-color: #E3F0EF;
+        height: 200px;
+        border: 300px;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .iconss{
+        margin-bottom: 800px;
+        margin-bottom: 30px;
+    }
+    .chinese{
+        border-radius: 50%;
+        width: 400px;
+        
+    }
+    .but{
+      margin-left: 140px; 
+      border-radius: 10px; 
+      color: burlywood;
+    }
+
+        
+    
+    @media screen and ( max-width:414px){
+        .intro{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+          
+        }
+        .advert{
+            font-weight: lighter;
+        }
+        .photo{
+            width: 550px;
+            height: 700px;
+            
+        
+        }
+        a{
+            text-decoration: none;
+        }
+        
+        .topnav{
+            overflow: hidden;
+            background-color: white;
+            word-spacing: 100px;
+            
+            }
+            .topnav.a{
+                float: left;
+                text-align: center;
+                color: #f2f2f2;
+                padding: 16px 18px;
+                text-decoration: none;
+                font-size: 14px;
+                text-decoration: aliceblue;
+                gap: 8px;
+            }
+            .logo{
+                width: 100px;
+                height: 100px;
+                margin-right: 10px;
+                margin-left: 20px;
+        
+            }
+            .foot{
+                text-align: center;
+                font-size: large;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: x-small;
+            }
+            .logos{
+                background-color: #E3F0EF;
+                height: 200px;
+                border: 300px;
+                justify-content: space-between;
+                gap: 30px;
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 05px;
+                height: 600px;
+                border: 800px;
+
+            }
+            .iconss{
+                margin-bottom: 800px;
+                margin-bottom: 30px;
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+            .chinese{
+                border-radius: 50%;
+                width: 400px;
+                border-radius: 50px;
+                width: 300px;
+                
+            }
+            .but{
+              margin-left: 140px; 
+              border-radius: 10px; 
+              color: burlywood;
+            }
+        
+
+
+    }
